@@ -3,8 +3,31 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+.text-primary {
+
+    color: #FD6E0A;
+}
+
+.btn-primary {
+
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px 19px 36px;
+}
+
+.header {
+    color: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%, 0% 0%;
+    padding: 30px;
+}
+
 /* header and nav styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
@@ -14,19 +37,102 @@ nav{
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+    color: #181818;
 }
 
-nav ul{
+nav ul {
     display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
 
+/* Banner styles */
 
+.banner {
+    margin: 0 90px 0 200px;
+    display: flex;
+    align-items: center;
+}
 
-.text-primary {
+.banner-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
 
+.author-name {
+    font-weight: 700;
+    font-size: 60px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.author-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+.contact-button {
+    border: 1px solid #FD6E0A;
     color: #FD6E0A;
+    padding: 18px 35px 19px 36px;
+    height: 64px;
+    border-radius: 5px;
+}
+
+/* main section styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title {
+
+    
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-description {
+    color: #757575;
+    margin-bottom: 30px;
+    font-size: 18px;
+
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    color: #757575;
+    font-size: 20px;
+}
+
+.info-value{
+    font-size: 20px;
+    color: #474747;
+
 }
